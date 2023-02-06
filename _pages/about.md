@@ -8,9 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student in Beijing University of Posts and Telecommunications (BUPT). I am interested in graph machine learning, especially spectral graph neural networks and graph signal proceesing. Besides, I am also 
+I am a fourth-year PhD student in the School of Computer Science, Beijing University of Posts and Telecommunications (BUPT), advised by  Prof. [Chuan Shi](http://shichuan.org/).
+I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/), Beihang University.
+Before that, I got my B.E in the School of Information and Telecommunication Engineering at BUPT.
 
-Research Highlights
+I am interested in graph machine learning, especially spectral graph neural networks and graph signal proceesing.
+Currently, I am working on applying the spectral information of graphs to various downstream tasks and applications.
+
+Research Highlights ([More](https://bdy9527.github.io/publications/))
 ====
 - Set-to-Set graph filter: [Specformer (ICLR 2023)]()
 - Adaptive graph filter: [FAGCN (AAAI 2021)]()
