@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year student in Beijing University of Posts and Telecommunications (BUPT).
+I am a final-year PhD student in Beijing University of Posts and Telecommunications (BUPT). I am interested in graph machine learning, especially spectral graph neural networks and graph signal proceesing. Besides, I am also 
 
 Research Highlights
 ====
