@@ -12,15 +12,24 @@ I am a fourth-year student in Beijing University of Posts and Telecommunications
 
 Research Highlights
 ====
+- Set-to-Set graph filter: [Specformer (ICLR 2023)]()
+- Adaptive graph filter: [FAGCN (AAAI 2021)]()
+- Deep graph clustering: [SDCN (WWW 2020)]()
 
-Education
+Experience
 ====
+- Remote visiting student (2021.12 - 2022.12) University of British Columbia
+  - Supervisors: Renjie Liao & Lele Wang 
+- Research intern (2020.12 - 2021.06) Ant Financial Service
+  - Mentor: Binbin Hu
+- Research intern (2019.02 - 2019.08) Tencent Inc.
+  - Mentor: Emiao Lu
 
 Services
 ====
 - **Journal**: IEEE TPAMI &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
-- **Conference**: AAAI 2023, WWW 2023, ICASSP 2023, KDD 2023
-
+- **Conference**:
+  - 2023: AAAI, WWW, ICASSP, KDD
 
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
