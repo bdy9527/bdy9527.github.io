@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my academic hompage"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,18 @@ redirect_from:
   - /about.html
 ---
 
+I am a fourth-year student in Beijing University of Posts and Telecommunications (BUPT).
+
+Research Highlights
+====
+
+Education
+====
+
+Services
+====
+- **Journal**: IEEE TPAMI &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
+- **Conference**: AAAI 2023, WWW 2023, ICASSP 2023, KDD 2023
 
 
 Example: editing a markdown file for a talk
