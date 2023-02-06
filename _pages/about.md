@@ -23,11 +23,11 @@ Research Highlights ([More](https://bdy9527.github.io/publications/))
 
 Experience
 ====
-- Remote visiting student (2021.12 - 2022.12) University of British Columbia
+- Remote visiting student (2021.12 - 2022.12), University of British Columbia
   - Supervisors: Renjie Liao & Lele Wang 
-- Research intern (2020.12 - 2021.06) Ant Financial Service
+- Research intern (2020.12 - 2021.06), Ant Financial Service
   - Mentor: Binbin Hu
-- Research intern (2019.02 - 2019.08) Tencent Inc.
+- Research intern (2019.02 - 2019.08), Tencent Inc.
   - Mentor: Emiao Lu
 
 Academic Service
