@@ -12,7 +12,7 @@ I am a fourth-year PhD student in the School of Computer Science, Beijing Univer
 I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/), Beihang University.
 Before that, I got my B.E in the School of Information and Telecommunication Engineering at BUPT.
 
-I am interested in graph machine learning, especially spectral graph neural networks and graph signal proceesing.
+I am interested in graph machine learning, especially spectral graph neural networks and graph signal processing.
 Currently, I am working on applying the spectral information of graphs to various downstream tasks and applications.
 
 Research Highlights ([More](https://bdy9527.github.io/publications/))
