@@ -34,4 +34,4 @@ Academic Service
 ====
 - **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
 - **Conference Reviewer**:
-  - 2023: AAAI, WWW, ICASSP, KDD
+  - 2023: AAAI, WWW, ICASSP, KDD, NeurIPS
