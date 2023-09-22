@@ -4,6 +4,8 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- Graph Contrastive Learning with Stable and Scalable Spectral Encoding (NeurIPS 2023)
+  - **Deyu Bo**, Yuan Fang, Yang Liu, Chuan Shi
 
 - Specformer: Spectral Graph Neural Networks Meet Transformers (ICLR 2023)
   - **Deyu Bo**, Chuan Shi, Lele Wang, Renjie Liao
