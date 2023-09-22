@@ -17,6 +17,7 @@ Currently, I am working on applying the spectral information of graphs to variou
 
 Research Highlights ([More](https://bdy9527.github.io/publications/))
 ====
+- Scalable positional encoding: [EigenMLP (NeurIPS 2023)]()
 - Set-to-Set graph filter: [Specformer (ICLR 2023)]()
 - Adaptive graph filter: [FAGCN (AAAI 2021)]()
 - Deep graph clustering: [SDCN (WWW 2020)]()
@@ -37,4 +38,4 @@ Academic Service
 - **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
 - **Conference Reviewer**:
   - 2023: AAAI, WWW, ICASSP, KDD, NeurIPS
-  - 2024: AAAI, LoG
+  - 2024: AAAI, LoG, WWW, ICLR, ICASSP, SDM
