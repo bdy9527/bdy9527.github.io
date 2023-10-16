@@ -31,6 +31,8 @@ author_profile: true
 
 Preprint
 ====
+- Graph Condensation via Eigenbasis Matching
+  - Yang Liu, **Deyu Bo**, Chuan Shi
 
 - A Survey on Spectral Graph Neural Networks
   - **Deyu Bo**, Xiao Wang, Yang Liu, Yuan Fang, Yawen Li, Chuan Shi
