@@ -17,10 +17,11 @@ Currently, I am working on applying the spectral information of graphs to variou
 
 Research Highlights ([More](https://bdy9527.github.io/publications/))
 ====
-- Scalable positional encoding: [EigenMLP (NeurIPS 2023)]()
-- Set-to-Set graph filter: [Specformer (ICLR 2023)]()
-- Adaptive graph filter: [FAGCN (AAAI 2021)]()
-- Deep graph clustering: [SDCN (WWW 2020)]()
+- Spectral Graph Condensation: [GCEM (Preprint)](https://arxiv.org/abs/2310.09202)
+- Scalable Positional Encoding: [EigenMLP (NeurIPS 2023)]()
+- Set-to-Set Graph Filter: [Specformer (ICLR 2023)]()
+- Adaptive Graph Filter: [FAGCN (AAAI 2021)]()
+- Deep Graph Clustering: [SDCN (WWW 2020)]()
 
 Experience
 ====
