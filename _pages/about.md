@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. student in the School of Computer Science, Beijing University of Posts and Telecommunications (BUPT), advised by  Prof. [Chuan Shi](http://shichuan.org/).
-I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/), Beihang University.
+I am currently a research manager at National University of Singapore (NUS), collaborating with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/).
+I obtained my Ph.D. degree in the School of Computer, Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. [Chuan Shi](http://shichuan.org/).
+I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
 Before that, I got my B.E. in the School of Information and Telecommunication Engineering at BUPT.
 
 I am interested in graph machine learning, especially spectral graph neural networks and graph signal processing.
