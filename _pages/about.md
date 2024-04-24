@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a research manager at National University of Singapore (NUS), collaborating with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/).
-I obtained my Ph.D. degree in the School of Computer, Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. [Chuan Shi](http://shichuan.org/).
+I am currently a research fellow at National University of Singapore (NUS), collaborating with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/).
+I obtained my doctoral degree in the School of Computer, Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. [Chuan Shi](http://shichuan.org/).
 I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
 Before that, I got my B.E. in the School of Information and Telecommunication Engineering at BUPT.
 
