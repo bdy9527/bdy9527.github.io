@@ -14,11 +14,10 @@ I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Bei
 Before that, I got my B.E. in the School of Information and Telecommunication Engineering at BUPT.
 
 I am interested in graph machine learning, especially spectral graph neural networks and graph signal processing.
-Currently, I am working on applying the spectral information of graphs to various downstream tasks and applications.
 
 Research Highlights ([More](https://bdy9527.github.io/publications/))
 ====
-- Spectral Graph Condensation: [GCEM (Preprint)](https://arxiv.org/abs/2310.09202)
+- Spectral Graph Condensation: [GDEM (ICML 2024)](https://arxiv.org/abs/2310.09202)
 - Scalable Positional Encoding: [EigenMLP (NeurIPS 2023)]()
 - Set-to-Set Graph Filter: [Specformer (ICLR 2023)]()
 - Adaptive Graph Filter: [FAGCN (AAAI 2021)]()
@@ -40,4 +39,4 @@ Academic Service
 - **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
 - **Conference Reviewer**:
   - 2023: AAAI, WWW, ICASSP, KDD, NeurIPS
-  - 2024: AAAI, LoG, WWW, ICLR, ICASSP, SDM
+  - 2024: AAAI, LoG, WWW, ICLR, ICASSP, SDM, ICML
