@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 - Graph Distillation with Eigenbasis Matching
-  - Yang Liu*, **Deyu Bo***, Chuan Shi (Equal Contribution)
+  - Yang Liu\*, **Deyu Bo\***, Chuan Shi (Equal Contribution)
 
 - Graph Contrastive Learning with Stable and Scalable Spectral Encoding (NeurIPS 2023)
   - **Deyu Bo**, Yuan Fang, Yang Liu, Chuan Shi
