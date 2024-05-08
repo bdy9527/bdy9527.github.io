@@ -17,7 +17,7 @@ I am interested in graph machine learning, especially spectral graph neural netw
 
 Research Highlights ([More](https://bdy9527.github.io/publications/))
 ====
-- Spectral Graph Condensation: [GDEM (ICML 2024)](https://arxiv.org/abs/2310.09202)
+- Spectral Graph Distillation: [GDEM (ICML 2024)](https://arxiv.org/abs/2310.09202)
 - Scalable Positional Encoding: [EigenMLP (NeurIPS 2023)]()
 - Set-to-Set Graph Filter: [Specformer (ICLR 2023)]()
 - Adaptive Graph Filter: [FAGCN (AAAI 2021)]()
