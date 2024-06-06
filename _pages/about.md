@@ -36,7 +36,7 @@ Experience
 
 Academic Service
 ====
-- **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
+- **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TSP &nbsp;/&nbsp; TIP &nbsp;/&nbsp; TKDE &nbsp;/&nbsp; TMM &nbsp;/&nbsp; TNNLS &nbsp;/&nbsp; TBD, Neurocomputing 
 - **Conference Reviewer**:
-  - 2023: AAAI, WWW, ICASSP, KDD, NeurIPS
-  - 2024: AAAI, LoG, WWW, ICLR, ICASSP, SDM, ICML
+  - 2023: NeurIPS, KDD, WWW, AAAI, ICASSP, 
+  - 2024: NeurIPS, ICLR, ICML, KDD, WWW, AAAI, SDM, ICASSP, LoG
