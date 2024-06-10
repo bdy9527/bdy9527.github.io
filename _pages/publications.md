@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-- Graph Distillation with Eigenbasis Matching
+- Graph Distillation with Eigenbasis Matching (ICML 2024)
   - Yang Liu\*, **Deyu Bo\***, Chuan Shi (Equal Contribution)
 
 - Graph Contrastive Learning with Stable and Scalable Spectral Encoding (NeurIPS 2023)
