@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- Point Cloud Dataset Distillation (ICML 2025)
+  - **Deyu Bo**, Xinchao Wang 
+
 - Graph Distillation with Eigenbasis Matching (ICML 2024)
   - Yang Liu\*, **Deyu Bo\***, Chuan Shi (Equal Contribution)
 
