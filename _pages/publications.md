@@ -4,11 +4,14 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- Graph Positional Autoencoders as Self-supervised Learners (KDD 2025)
+  - Yang Liu\*, **Deyu Bo\***, Wenxuan Cao, Yuan Fang, Yawen Li, Chuan Shi
+
 - Point Cloud Dataset Distillation (ICML 2025)
   - **Deyu Bo**, Xinchao Wang 
 
 - Graph Distillation with Eigenbasis Matching (ICML 2024)
-  - Yang Liu\*, **Deyu Bo\***, Chuan Shi (Equal Contribution)
+  - Yang Liu\*, **Deyu Bo\***, Chuan Shi
 
 - Graph Contrastive Learning with Stable and Scalable Spectral Encoding (NeurIPS 2023)
   - **Deyu Bo**, Yuan Fang, Yang Liu, Chuan Shi
