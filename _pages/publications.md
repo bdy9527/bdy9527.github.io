@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- Understanding Dataset Distillation via Spectral Filtering (ICLR 2026)
+  - **Deyu Bo**, Songhua Liu, Xinchao Wang
+
 - Graph Positional Autoencoders as Self-supervised Learners (KDD 2025)
   - Yang Liu\*, **Deyu Bo\***, Wenxuan Cao, Yuan Fang, Yawen Li, Chuan Shi
 
