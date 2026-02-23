@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching (CVPR 2026)
+  - **Deyu Bo**, Xinchao Wang
+
 - Understanding Dataset Distillation via Spectral Filtering (ICLR 2026)
   - **Deyu Bo**, Songhua Liu, Xinchao Wang
 
