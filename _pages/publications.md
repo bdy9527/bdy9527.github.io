@@ -49,9 +49,6 @@ author_profile: true
 - AM-GCN: Adaptive Multi-channel Graph Convolutional Networks (KDD 2020)
   - Xiao Wang, Meiqi Zhu, **Deyu Bo**, Peng Cui, Chuan Shi, Jian Pei
 
-- A Survey on Heterogeneous Graph Embedding: Methods, Techniques, Applications and Sources (IEEE TBD)
-  - Xiao Wang, **Deyu Bo**, Chuan Shi, Shaohua Fan, Yanfang Ye, S Yu Philip
-
 
 Preprint
 ====
