@@ -4,6 +4,15 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching (ICML 2026)
+  - **Deyu Bo**, Xinchao Wang
+
+- Graph-GRPO: Training Graph Flow Models with Reinforcement Learning (ICML 2026)
+  - Baoheng Zhu, **Deyu Bo\***, Delvin Ce Zhang, Xiao Wang
+
+- Full-Spectrum Graph Neural Network: Expressive and Scalable (ICML 2026)
+  - Xiaohan Wang, **Deyu Bo\***, Longlong Li, Kelin Xia
+
 - Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching (CVPR 2026)
   - **Deyu Bo**, Xinchao Wang
 
