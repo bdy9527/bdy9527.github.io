@@ -8,10 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a research fellow at National University of Singapore (NUS), collaborating with Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/).
-I obtained my doctoral degree in the School of Computer, Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. [Chuan Shi](http://shichuan.org/).
-I also collaborated with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
-Before that, I got my B.E. in the School of Information and Telecommunication Engineering at BUPT.
+I am currently a Research Fellow at Nanyang Technological University (NTU), working with Prof. [Kelin Xia](https://personal.ntu.edu.sg/xiakelin/index.html). Previously, I was a Research Fellow at the National University of Singapore (NUS), supervised by Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/).
+I received my Ph.D. degree from Beijing University of Posts and Telecommunications (BUPT), where I was supervised by Prof. [Chuan Shi](http://shichuan.org/). I also collaborate with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
 
 I am interested in graph machine learning, especially spectral graph neural networks and graph signal processing.
 
