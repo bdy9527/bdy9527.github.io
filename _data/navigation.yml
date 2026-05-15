@@ -3,14 +3,14 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Blog Posts"
+    url: /year-archive/
+
 #   - title: "CV"
 #     url: /cv/
 
 #   - title: "Talks"
 #     url: /talks/    
-            
-#   - title: "Blog Posts"
-#     url: /year-archive/
     
 #   - title: "Guide"
 #     url: /markdown/
