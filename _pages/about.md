@@ -8,32 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Fellow at Nanyang Technological University (NTU), working with Prof. [Kelin Xia](https://personal.ntu.edu.sg/xiakelin/index.html). Previously, I was a Research Fellow at the National University of Singapore (NUS), supervised by Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/).
-I received my Ph.D. degree from Beijing University of Posts and Telecommunications (BUPT), where I was supervised by Prof. [Chuan Shi](http://shichuan.org/). I also collaborate with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
+I am currently a Research Fellow at Nanyang Technological University (NTU), working with Prof. [Kelin Xia](https://personal.ntu.edu.sg/xiakelin/index.html).
 
-I am interested in graph machine learning, especially spectral graph neural networks and graph signal processing.
+Previously, I was a Research Fellow at the National University of Singapore (NUS), supervised by Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/). I received my Ph.D. degree from Beijing University of Posts and Telecommunications (BUPT), where I was supervised by Prof. [Chuan Shi](http://shichuan.org/). I also collaborate with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
 
-Research Highlights ([More](https://bdy9527.github.io/publications/))
+Research Summary ([More](https://bdy9527.github.io/publications/))
 ====
-- Full Spectrum GNN: [FSGNN (ICML 2026)](https://arxiv.org/abs/2605.05759)
-- Unified Dataset Distillation: [UniDD (ICLR 2026)](https://arxiv.org/abs/2503.01212)
-- Spectral Graph Distillation: [GDEM (ICML 2024)](https://arxiv.org/abs/2310.09202)
-- Set-to-Set Graph Filter: [Specformer (ICLR 2023)](https://arxiv.org/abs/2303.01028)
-- Adaptive Graph Filter: [FAGCN (AAAI 2021)](https://arxiv.org/abs/2101.00797)
+My current research primarily focuses on **Deep Spectral Learning**.
 
-Experience
-====
-- Visiting student (2022.12-2023.6), Singapore Management University
-  - Supervisor: Yuan Fang
-- Remote visiting student (2021.12 - 2022.12), University of British Columbia
-  - Supervisors: Renjie Liao & Lele Wang 
-- Research intern (2020.12 - 2021.06), Ant Financial Service
-  - Mentor: Binbin Hu
-- Research intern (2019.02 - 2019.08), Tencent Inc.
-  - Mentor: Emiao Lu
+I am interested in developing spectral tools or models with principled mathematics. Below are some representative topics and works.
+
+- Spectral-based Data Analysis: [Unified Dataset Distillation](https://arxiv.org/abs/2503.01212) (ICLR 2026), [Spectral Graph Distillation](https://arxiv.org/abs/2310.09202) (ICML 2024)
+
+- Spectral Graph Neural Networks: [Full-spectrum GNN](https://arxiv.org/abs/2605.05759) (ICML 2026), [Specformer](https://arxiv.org/abs/2303.01028) (ICLR 2023), [Frequency-adaptive GCN](https://arxiv.org/abs/2101.00797) (AAAI 2021)
+
+&nbsp;
+
+I also have some preliminary ideas in other areas. Feel free to email me if you are interested.
+
+- Spectral Model Analysis, e.g., Parameter-Efficient Fine-Tuning (PEFT)
+
+- Spectral Diffusion Model
+
+- Spectral-based Applications, e.g., AI for Science
 
 Academic Service
 ====
-- **Honor**: NeurIPS 2024 Top Reviewer
-- **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TSP &nbsp;/&nbsp; TIP &nbsp;/&nbsp; TKDE &nbsp;/&nbsp;
-- **Conference Reviewer**: NeurIPS, ICLR, ICML, KDD, WWW
+- **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TSP &nbsp;/&nbsp; TIP &nbsp;/&nbsp; TKDE &nbsp;
+- **Conference Area Chair**: NeurIPS
+- **Conference Reviewer**: NeurIPS, ICLR, ICML
