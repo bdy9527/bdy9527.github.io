@@ -22,8 +22,6 @@ I am interested in developing spectral tools or models with principled mathemati
 
 - Spectral Graph Neural Networks: [Full-spectrum GNN](https://arxiv.org/abs/2605.05759) (ICML 2026), [Specformer](https://arxiv.org/abs/2303.01028) (ICLR 2023), [Frequency-adaptive GCN](https://arxiv.org/abs/2101.00797) (AAAI 2021)
 
-&nbsp;
-
 I also have some preliminary ideas in other areas. Feel free to email me if you are interested.
 
 - Spectral Model Analysis, e.g., Parameter-Efficient Fine-Tuning (PEFT)
