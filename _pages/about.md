@@ -18,17 +18,17 @@ My current research primarily focuses on **Deep Spectral Learning**.
 
 I am interested in developing spectral tools or models with principled mathematics. Below are some representative topics and works.
 
-- Spectral-based Data Analysis: [Unified Dataset Distillation](https://arxiv.org/abs/2503.01212) (ICLR 2026), [Spectral Graph Distillation](https://arxiv.org/abs/2310.09202) (ICML 2024)
+- Spectral Analysis of Data: [Unified Dataset Distillation](https://arxiv.org/abs/2503.01212) (ICLR 2026), [Spectral Graph Distillation](https://arxiv.org/abs/2310.09202) (ICML 2024)
 
 - Spectral Graph Neural Networks: [Full-spectrum GNN](https://arxiv.org/abs/2605.05759) (ICML 2026), [Specformer](https://arxiv.org/abs/2303.01028) (ICLR 2023), [Frequency-adaptive GCN](https://arxiv.org/abs/2101.00797) (AAAI 2021)
 
 I also have some preliminary ideas in other areas. Feel free to email me if you are interested.
 
-- Spectral Model Analysis, e.g., Parameter-Efficient Fine-Tuning (PEFT)
+- Spectral Analysis of Model, e.g., Parameter-Efficient Fine-Tuning (PEFT), Learning Dynamics of LLM
 
-- Spectral Diffusion Model
+- Spectral Optimization, e.g., Muon
 
-- Spectral-based Applications, e.g., AI for Science
+- Spectrum-based Applications, e.g., AI for Science
 
 Academic Service
 ====
