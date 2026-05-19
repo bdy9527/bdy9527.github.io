@@ -24,7 +24,7 @@ I am interested in developing spectral tools or models with principled mathemati
 
 I also have some preliminary ideas in other areas. Feel free to email me if you are interested.
 
-- Spectral Analysis of Model, e.g., Parameter-Efficient Fine-Tuning (PEFT), Learning Dynamics of LLM
+- Spectral Analysis of Model, e.g., Parameter-Efficient Fine-Tuning (PEFT), Model Merging
 
 - Spectral Optimization, e.g., Muon
 
