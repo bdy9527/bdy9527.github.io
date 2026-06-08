@@ -1,6 +1,7 @@
 ---
 title: "Blogs and Repos related to DSL"
 date: 2026-06-08 10:00:00 +0800
+pinned: true
 layout: single
 author_profile: true
 tags:
