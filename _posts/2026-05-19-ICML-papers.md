@@ -1,6 +1,7 @@
 ---
 title: "Promising papers related to DSL in ICML 2026"
 date: 2026-05-19 10:00:00 +0800
+pinned: false
 layout: single
 author_profile: true
 tags:
