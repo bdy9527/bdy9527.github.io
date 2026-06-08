@@ -19,8 +19,6 @@ Blogs:
 
 - https://www.iamtk.co/
 
-- https://thinkingmachines.ai/blog/
-
 Labs:
 
 - https://dsl-lab.github.io/
