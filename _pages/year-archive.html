@@ -10,5 +10,13 @@ author_profile: true
 {% assign posts = site.posts | sort: "date" | reverse %}
 
 {% for post in posts %}
-  {% include archive-single.html show_excerpt="false" %}
+  {% if post.pinned %}
+    {% include archive-single.html show_excerpt="false" %}
+  {% endif %}
+{% endfor %}
+
+{% for post in posts %}
+  {% unless post.pinned %}
+    {% include archive-single.html show_excerpt="false" %}
+  {% endunless %}
 {% endfor %}
