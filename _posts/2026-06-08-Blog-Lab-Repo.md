@@ -19,6 +19,8 @@ Blogs:
 
 - https://www.iamtk.co/
 
+- https://developer.nvidia.com/cuda/cuda-x-libraries/alchemi
+
 Labs:
 
 - https://dsl-lab.github.io/
@@ -32,3 +34,5 @@ Repos:
 - https://github.com/lucidrains
 
 - https://github.com/NVIDIA-BioNeMo
+
+- https://github.com/NVIDIA/nvalchemi-toolkit-ops
