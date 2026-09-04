@@ -1,0 +1,25 @@
+# ----------------------------------------------------------------------------
+# News feed. Newest first -- add new entries at the TOP.
+#
+# Only the first `limit` entries render on the home page (see _pages/about.md,
+# currently 4), so older items can stay here as a record without lengthening
+# the page. To show more or fewer, change the `limit:` in about.md.
+#
+#   - date: "2026.09"
+#     text: 'Free HTML: <strong>bold</strong>, <a href="...">links</a>, etc.'
+# ----------------------------------------------------------------------------
+
+- date: "2026.09"
+  text: 'Awarded the <strong><a href="https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)">Wallenberg-NTU Presidential Postdoctoral Fellowship</a></strong>.'
+
+- date: "2026.05"
+  text: 'Three papers accepted to <strong>ICML 2026</strong>.'
+
+- date: "2026.02"
+  text: 'One paper accepted to <strong>CVPR 2026</strong>.'
+
+- date: "2026.01"
+  text: 'One paper accepted to <strong>ICLR 2026</strong>.'
+
+- date: "2025.05"
+  text: 'One paper accepted to <strong>KDD 2025</strong>, one to <strong>ICML 2025</strong>.'

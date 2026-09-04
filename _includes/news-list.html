@@ -1,0 +1,5 @@
+<ul class="news-list">
+  {%- for item in include.items limit: include.limit -%}
+  <li><span class="news-date">{{ item.date }}</span> {{ item.text }}</li>
+  {%- endfor -%}
+</ul>

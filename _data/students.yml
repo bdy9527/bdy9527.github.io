@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------------
+# Supervised / co-supervised students.
+#
+#   - name:   "Full Name"
+#     url:    "https://..."        # their homepage; omit and the name is plain text
+#     role:   "Ph.D. student, BUPT"
+#     now:    "Research Scientist, Company"   # omit while they are still with you
+#     papers: ["ICML 2024", "KDD 2025"]       # venue labels, shown as badges
+#
+# `now` is what makes the row read as an outcome. Leave it out for current
+# students and the row simply shows the role instead -- no "N/A", no gap.
+# ----------------------------------------------------------------------------
+
+- name: "Yang Liu"
+  url:
+  role: "Master, BUPT"
+  now: "InclusionAI (Ling Team)"
+  papers: ["KDD 2025", "ICML 2024"]
+
+- name: "Baoheng Zhu"
+  url:
+  role: "Bachelor, BUPT"
+  now: "Ph.D., HKUST(GZ)"
+  papers: ["ICML 2026"]
+
+- name: "Xiaohan Wang"
+  url:
+  role: "Ph.D., NTU"
+  papers: ["ICML 2026"]

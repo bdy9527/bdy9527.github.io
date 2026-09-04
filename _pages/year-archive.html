@@ -1,22 +1,17 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog"
+title: '<i class="fas fa-feather-alt ic-green"></i> Blog'
 author_profile: true
 ---
 
-{% include base_path %}
-
 {% assign posts = site.posts | sort: "date" | reverse %}
 
-{% for post in posts %}
-  {% if post.pinned %}
-    {% include archive-single.html show_excerpt="false" %}
-  {% endif %}
-{% endfor %}
-
-{% for post in posts %}
-  {% unless post.pinned %}
-    {% include archive-single.html show_excerpt="false" %}
-  {% endunless %}
-{% endfor %}
+<ul class="post-list">
+  {%- for post in posts -%}
+    {%- if post.pinned -%}{% include post-item.html post=post %}{%- endif -%}
+  {%- endfor -%}
+  {%- for post in posts -%}
+    {%- unless post.pinned -%}{% include post-item.html post=post %}{%- endunless -%}
+  {%- endfor -%}
+</ul>

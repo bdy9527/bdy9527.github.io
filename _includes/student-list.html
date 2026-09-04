@@ -1,0 +1,18 @@
+<ul class="student-list">
+  {% for s in include.items %}
+  <li class="student">
+    <div class="student__head">
+      {% if s.url %}<a class="student__name" href="{{ s.url }}">{{ s.name }}</a>
+      {% else %}<span class="student__name">{{ s.name }}</span>{% endif %}
+      {% if s.papers.size > 0 %}
+      <span class="student__papers">{% for v in s.papers %}<span class="pub__venue">{{ v }}</span>{% endfor %}</span>
+      {% endif %}
+    </div>
+    <div class="student__meta">
+      {%- if s.role %}{{ s.role }}{% endif -%}
+      {%- if s.years %}{% if s.role %}, {% endif %}{{ s.years }}{% endif -%}
+      {%- if s.now %}<span class="student__arrow">&rarr;</span>{{ s.now }}{% endif -%}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

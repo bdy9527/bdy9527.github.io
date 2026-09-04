@@ -1,0 +1,393 @@
+/* ==========================================================================
+   Publication list / News feed / Heading icons
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Section heading rhythm
+   The theme zeroes out h1 { margin-top }, so every `====` section on the home
+   page sits flush against the block above it. Give them real air instead.
+   -------------------------------------------------------------------------- */
+
+.page__content h1 {
+  margin-top: 1.5em;
+}
+
+.page__content > h1:first-child {
+  margin-top: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Heading icons
+   Muted on purpose: the icon is a landmark, not decoration.
+   -------------------------------------------------------------------------- */
+
+.page__title > i,
+.page__content h1 > i,
+.page__content h2 > i,
+.page__content h3 > i {
+  margin-right: 0.4em;
+  color: mix(#fff, $gray, 22%); /* fallback when no .ic-* class is set */
+  font-size: 0.78em;
+  vertical-align: baseline;
+}
+
+/* Icon colour palette.
+   Add `ic-<name>` next to the icon class to tint it, e.g.
+   <i class="fas fa-user ic-blue"></i>
+   Colour is deliberately decoupled from icon identity: swap either freely. */
+
+/* Keys are quoted on purpose: unquoted `blue`, `violet` and `green` are CSS
+   colour keywords, and Ruby Sass (what GitHub Pages runs) resolves them to hex
+   inside interpolation, producing selectors like `.ic-#0000ff`. */
+$icon-colors: (
+  "blue":   #2563eb,
+  "amber":  #f59e0b,
+  "violet": #7c3aed,
+  "teal":   #0d9488,
+  "rose":   #e11d48,
+  "green":  #16a34a,
+  "slate":  #64748b,
+);
+
+@each $name, $c in $icon-colors {
+  .ic-#{$name} {
+    color: $c !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Publication list
+   -------------------------------------------------------------------------- */
+
+.pub-list {
+  margin: 0.5em 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.pub-list > li {
+  font-size: 1em; /* reset the .page p,li,dl rule so sizes below are absolute */
+  padding: 0.8em 0;
+  border-bottom: 1px solid mix(#fff, $gray, 92%);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.pub__title {
+  font-size: 0.9em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: $text-color;
+}
+
+.pub__meta {
+  margin-top: 0.35em;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: mix(#fff, $text-color, 32%);
+}
+
+.pub__venue {
+  display: inline-block;
+  margin-right: 0.55em;
+  padding: 0.1em 0.5em;
+  font-size: 0.94em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  color: mix(#000, $gray, 35%);
+  background-color: mix(#fff, $gray, 84%);
+  border-radius: 3px;
+}
+
+.pub__authors strong {
+  color: $text-color;
+}
+
+.pub__links {
+  margin-top: 0.5em;
+}
+
+.pub__link {
+  display: inline-block;
+  margin: 0 0.35em 0.3em 0;
+  padding: 0.12em 0.55em;
+  font-size: 0.75em;
+  line-height: 1.6;
+  text-decoration: none !important;
+  color: mix(#fff, $text-color, 28%) !important;
+  border: 1px solid mix(#fff, $gray, 78%);
+  border-radius: 3px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  i {
+    margin-right: 0.35em;
+  }
+
+  &:hover,
+  &:focus {
+    color: $link-color !important;
+    text-decoration: none !important;
+    border-color: $link-color;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   News feed
+   -------------------------------------------------------------------------- */
+
+.news-list {
+  margin: 0.5em 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list > li {
+  font-size: 0.875em;
+  line-height: 1.6;
+  padding: 0.28em 0;
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 5em;
+  margin-right: 0.7em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: mix(#fff, $text-color, 42%);
+}
+
+@media (max-width: 600px) {
+  .news-date {
+    display: block;
+    margin-bottom: 0.1em;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Brand tints for the publication link buttons.
+   These are the real brand colours, so the button reads as "arXiv" / "GitHub"
+   before you finish reading the label.
+   -------------------------------------------------------------------------- */
+
+$pub-link-colors: (
+  "arxiv": #b31b1b,
+  "pdf":   #d93025,
+  "code":  #24292f,
+  "page":  $link-color,
+);
+
+@each $name, $c in $pub-link-colors {
+  .pub__link--#{$name} {
+    i {
+      color: $c;
+    }
+
+    &:hover,
+    &:focus {
+      color: $c !important;
+      border-color: $c;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar social icons -- brand tints.
+   Delete this block if you want the sidebar to stay monochrome.
+   -------------------------------------------------------------------------- */
+
+.author__urls {
+  .fa-map-marker  { color: #e11d48; }
+  .fa-github      { color: #24292f; }
+  .fa-graduation-cap { color: #4285f4; }
+  .fa-envelope    { color: #0d9488; }
+  .fa-twitter     { color: #1d9bf0; }
+  .fa-linkedin    { color: #0a66c2; }
+  .fa-rss-square  { color: #f26522; }
+  .ai-arxiv       { color: #b31b1b; }
+  .ai-orcid       { color: #a6ce39; }
+  .ai-dblp        { color: #004f9f; }
+}
+
+/* --------------------------------------------------------------------------
+   Blog listing
+   Same rhythm as the News feed and the publication list: date on the left,
+   title in the middle, tags pushed to the right.
+   -------------------------------------------------------------------------- */
+
+.post-list {
+  margin: 0.5em 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.post-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.7em;
+  font-size: 1em;
+  padding: 0.75em 0;
+  border-bottom: 1px solid mix(#fff, $gray, 92%);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.post-item__date {
+  flex: 0 0 auto;
+  min-width: 5.4em;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: mix(#fff, $text-color, 42%);
+}
+
+.post-item__title {
+  flex: 1 1 55%;
+  font-size: 0.9em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: $text-color !important;
+  text-decoration: none !important;
+
+  &:hover,
+  &:focus {
+    color: $link-color !important;
+    text-decoration: none !important;
+  }
+}
+
+.post-item__pin {
+  margin-right: 0.45em;
+  font-size: 0.8em;
+  color: #f59e0b; /* same amber as the News heading */
+}
+
+.post-item__tags {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.post-tag {
+  display: inline-block;
+  margin-left: 0.35em;
+  padding: 0.1em 0.5em;
+  font-size: 0.72em;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #4f46e5;
+  background-color: #eef2ff;
+  border-radius: 3px;
+}
+
+@media (max-width: 600px) {
+  .post-item__title {
+    flex: 1 1 100%;
+  }
+
+  .post-item__tags {
+    flex: 1 1 100%;
+    margin: 0.35em 0 0;
+  }
+
+  .post-tag {
+    margin: 0 0.35em 0 0;
+  }
+}
+
+/* Tag pills at the foot of a post page -- same look, slightly larger. */
+
+.page__taxonomy-item {
+  padding: 0.15em 0.6em;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #4f46e5 !important;
+  background-color: #eef2ff;
+  border: 0;
+  text-decoration: none !important;
+
+  &:hover,
+  &:focus {
+    color: #fff !important;
+    background-color: #4f46e5;
+    text-decoration: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Supervised students
+   Reuses .pub__venue for the paper badges so the page keeps one badge style.
+   -------------------------------------------------------------------------- */
+
+.student-list {
+  margin: 0.5em 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.student-list > li {
+  font-size: 1em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid mix(#fff, $gray, 92%);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.student__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.6em;
+}
+
+.student__name {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: $text-color !important;
+  text-decoration: none !important;
+}
+
+a.student__name:hover,
+a.student__name:focus {
+  color: $link-color !important;
+  text-decoration: none !important;
+}
+
+.student__papers {
+  margin-left: auto;
+
+  .pub__venue {
+    margin: 0 0 0 0.35em;
+  }
+}
+
+.student__meta {
+  margin-top: 0.3em;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: mix(#fff, $text-color, 32%);
+}
+
+.student__arrow {
+  margin: 0 0.45em;
+  font-weight: 600;
+  color: #16a34a;
+}
+
+@media (max-width: 600px) {
+  .student__papers {
+    flex: 1 1 100%;
+    margin: 0.3em 0 0;
+
+    .pub__venue {
+      margin: 0 0.35em 0 0;
+    }
+  }
+}

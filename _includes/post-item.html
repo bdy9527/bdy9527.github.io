@@ -1,0 +1,9 @@
+{% include base_path %}
+{% assign p = include.post %}
+<li class="post-item">
+  <span class="post-item__date">{{ p.date | date: "%Y.%m.%d" }}</span>
+  <a class="post-item__title" href="{{ base_path }}{{ p.url }}">{% if p.pinned %}<i class="fas fa-thumbtack post-item__pin" title="Pinned"></i>{% endif %}{{ p.title }}</a>
+  {% if p.tags.size > 0 %}
+  <span class="post-item__tags">{% for t in p.tags %}<span class="post-tag">{{ t }}</span>{% endfor %}</span>
+  {% endif %}
+</li>

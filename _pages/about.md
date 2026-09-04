@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: '<i class="fas fa-user ic-blue"></i> About me'
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,7 +12,13 @@ I am currently a Research Fellow at Nanyang Technological University (NTU), work
 
 Previously, I was a Research Fellow at the National University of Singapore (NUS), supervised by Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/). I received my Ph.D. degree from Beijing University of Posts and Telecommunications (BUPT), where I was supervised by Prof. [Chuan Shi](http://shichuan.org/). I also collaborate with Prof. [Xiao Wang](https://wangxiaocs.github.io/) at Beihang University.
 
-Research Summary ([More](https://bdy9527.github.io/publications/))
+<i class="fas fa-bullhorn ic-amber"></i> News
+====
+
+<!-- News lives in _data/news.yml. Only the newest `limit` entries render. -->
+{% include news-list.html items=site.data.news limit=4 %}
+
+<i class="fas fa-microscope ic-violet"></i> Research Summary ([More](https://bdy9527.github.io/publications/))
 ====
 My current research primarily focuses on **Deep Spectral Learning**.
 
@@ -30,8 +36,15 @@ I also have some preliminary ideas in other areas. Feel free to email me if you 
 
 - Spectrum-based Applications, e.g., AI for Science
 
-Academic Service
+<i class="fas fa-gavel ic-teal"></i> Academic Service
 ====
 - **Journal Reviewer**: IEEE TPAMI &nbsp;/&nbsp; TSP &nbsp;/&nbsp; TIP &nbsp;/&nbsp; TKDE &nbsp;
 - **Conference Area Chair**: NeurIPS
 - **Conference Reviewer**: NeurIPS, ICLR, ICML
+
+<i class="fas fa-user-graduate ic-green"></i> Supervised Students
+====
+
+<!-- Students live in _data/students.yml -- edit that file, not this one. -->
+
+{% include student-list.html items=site.data.students %}

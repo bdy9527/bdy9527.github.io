@@ -1,0 +1,116 @@
+# ---------------------------------------------------------------------------
+# Publication list.
+#
+# To add a paper, copy one block and fill it in. Only `title`, `authors` and
+# `venue` are required — any link field you leave blank simply won't render
+# a button.
+#
+#   - title:   "Paper title"
+#     authors: '**Deyu Bo**, Co Author'      # markdown; use ** ** for your name
+#     venue:   "ICML 2026"                   # shown as the badge
+#     arxiv:   "https://arxiv.org/abs/..."
+#     pdf:     "https://..."                 # or "/files/xxx.pdf"
+#     code:    "https://github.com/..."
+#     page:    "https://..."                 # project page
+#
+# NOTE: link fields left empty below are ones I didn't have a URL for.
+#       Fill them in and the buttons appear automatically.
+# ---------------------------------------------------------------------------
+
+conference:
+  - title: "Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching"
+    authors: '**Deyu Bo**, Xinchao Wang'
+    venue: "ICML 2026"
+    arxiv:
+    code:
+
+  - title: "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning"
+    authors: 'Baoheng Zhu\*, **Deyu Bo\***, Delvin Ce Zhang, Xiao Wang'
+    venue: "ICML 2026"
+    arxiv:
+    code:
+
+  - title: "Full-Spectrum Graph Neural Network: Expressive and Scalable"
+    authors: 'Xiaohan Wang\*, **Deyu Bo\***, Longlong Li, Kelin Xia'
+    venue: "ICML 2026"
+    arxiv: "https://arxiv.org/abs/2605.05759"
+    code:
+
+  - title: "Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching"
+    authors: '**Deyu Bo**, Xinchao Wang'
+    venue: "CVPR 2026"
+    arxiv:
+    code:
+
+  - title: "Understanding Dataset Distillation via Spectral Filtering"
+    authors: '**Deyu Bo**, Songhua Liu, Xinchao Wang'
+    venue: "ICLR 2026"
+    arxiv: "https://arxiv.org/abs/2503.01212"
+    code:
+
+  - title: "Graph Positional Autoencoders as Self-supervised Learners"
+    authors: 'Yang Liu\*, **Deyu Bo\***, Wenxuan Cao, Yuan Fang, Yawen Li, Chuan Shi'
+    venue: "KDD 2025"
+    arxiv:
+    code:
+
+  - title: "Point Cloud Dataset Distillation"
+    authors: '**Deyu Bo**, Xinchao Wang'
+    venue: "ICML 2025"
+    arxiv:
+    code:
+
+  - title: "Graph Distillation with Eigenbasis Matching"
+    authors: 'Yang Liu\*, **Deyu Bo\***, Chuan Shi'
+    venue: "ICML 2024"
+    arxiv: "https://arxiv.org/abs/2310.09202"
+    code:
+
+  - title: "Graph Contrastive Learning with Stable and Scalable Spectral Encoding"
+    authors: '**Deyu Bo**, Yuan Fang, Yang Liu, Chuan Shi'
+    venue: "NeurIPS 2023"
+    arxiv:
+    code: "https://github.com/bdy9527/Sp2GCL"
+
+  - title: "Specformer: Spectral Graph Neural Networks Meet Transformers"
+    authors: '**Deyu Bo**, Chuan Shi, Lele Wang, Renjie Liao'
+    venue: "ICLR 2023"
+    arxiv: "https://arxiv.org/abs/2303.01028"
+    code: "https://github.com/bdy9527/Specformer"
+
+  - title: "Revisiting Graph Contrastive Learning from the Perspective of Graph Spectrum"
+    authors: 'Nian Liu, Xiao Wang, **Deyu Bo**, Chuan Shi, Jian Pei'
+    venue: "NeurIPS 2022"
+    arxiv:
+    code:
+
+  - title: "Regularizing Graph Neural Networks via Consistency-diversity Graph Augmentations"
+    authors: '**Deyu Bo**, BinBin Hu, Xiao Wang, Zhiqiang Zhang, Chuan Shi, Jun Zhou'
+    venue: "AAAI 2022"
+    arxiv:
+    code:
+
+  - title: "Beyond Low-frequency Information in Graph Convolutional Networks"
+    authors: '**Deyu Bo**, Xiao Wang, Chuan Shi, Huawei Shen'
+    venue: "AAAI 2021"
+    arxiv: "https://arxiv.org/abs/2101.00797"
+    code: "https://github.com/bdy9527/FAGCN"
+
+  - title: "Structural Deep Clustering Network"
+    authors: '**Deyu Bo**, Xiao Wang, Chuan Shi, Meiqi Zhu, Emiao Lu, Peng Cui'
+    venue: "WWW 2020"
+    arxiv:
+    code: "https://github.com/bdy9527/SDCN"
+
+  - title: "AM-GCN: Adaptive Multi-channel Graph Convolutional Networks"
+    authors: 'Xiao Wang, Meiqi Zhu, **Deyu Bo**, Peng Cui, Chuan Shi, Jian Pei'
+    venue: "KDD 2020"
+    arxiv:
+    code:
+
+preprint:
+  - title: "A Survey on Spectral Graph Neural Networks"
+    authors: '**Deyu Bo**, Xiao Wang, Yang Liu, Yuan Fang, Yawen Li, Chuan Shi'
+    venue: "Preprint"
+    arxiv:
+    code:

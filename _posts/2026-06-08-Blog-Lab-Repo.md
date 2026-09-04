@@ -11,28 +11,28 @@ tags:
 
 Blogs:
 
-- https://spaces.ac.cn/
+- <https://spaces.ac.cn/>
 
-- https://thinkingmachines.ai/blog/
+- <https://thinkingmachines.ai/blog/>
 
-- https://deepmind.google/research/publications/
+- <https://deepmind.google/research/publications/>
 
-- https://www.iamtk.co/
+- <https://www.iamtk.co/>
 
-- https://developer.nvidia.com/cuda/cuda-x-libraries/alchemi
+- <https://developer.nvidia.com/cuda/cuda-x-libraries/alchemi>
 
 Labs:
 
-- https://dsl-lab.github.io/
+- <https://dsl-lab.github.io/>
 
-- https://sites.google.com/view/panli-purdue/home
+- <https://sites.google.com/view/panli-purdue/home>
 
-- https://www.mit.edu/~geliu/
+- <https://www.mit.edu/~geliu/>
 
 Repos:
 
-- https://github.com/lucidrains
+- <https://github.com/lucidrains>
 
-- https://github.com/NVIDIA-BioNeMo
+- <https://github.com/NVIDIA-BioNeMo>
 
-- https://github.com/NVIDIA/nvalchemi-toolkit-ops
+- <https://github.com/NVIDIA/nvalchemi-toolkit-ops>

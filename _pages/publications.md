@@ -1,57 +1,15 @@
 ---
 layout: archive
-title: "Publications"
+title: '<i class="fas fa-book ic-rose"></i> Publications'
 permalink: /publications/
 author_profile: true
 ---
-- Efficient Multi-modal Dataset Distillation via Analytic Parameter Matching (ICML 2026)
-  - **Deyu Bo**, Xinchao Wang
 
-- Graph-GRPO: Training Graph Flow Models with Reinforcement Learning (ICML 2026)
-  - Baoheng Zhu\*, **Deyu Bo\***, Delvin Ce Zhang, Xiao Wang
+<!-- Papers live in _data/publications.yml — edit that file, not this one. -->
 
-- Full-Spectrum Graph Neural Network: Expressive and Scalable (ICML 2026)
-  - Xiaohan Wang\*, **Deyu Bo\***, Longlong Li, Kelin Xia
+{% include pub-list.html items=site.data.publications.conference %}
 
-- Beyond Soft Label: Dataset Distillation via Orthogonal Gradient Matching (CVPR 2026)
-  - **Deyu Bo**, Xinchao Wang
-
-- Understanding Dataset Distillation via Spectral Filtering (ICLR 2026)
-  - **Deyu Bo**, Songhua Liu, Xinchao Wang
-
-- Graph Positional Autoencoders as Self-supervised Learners (KDD 2025)
-  - Yang Liu\*, **Deyu Bo\***, Wenxuan Cao, Yuan Fang, Yawen Li, Chuan Shi
-
-- Point Cloud Dataset Distillation (ICML 2025)
-  - **Deyu Bo**, Xinchao Wang 
-
-- Graph Distillation with Eigenbasis Matching (ICML 2024)
-  - Yang Liu\*, **Deyu Bo\***, Chuan Shi
-
-- Graph Contrastive Learning with Stable and Scalable Spectral Encoding (NeurIPS 2023)
-  - **Deyu Bo**, Yuan Fang, Yang Liu, Chuan Shi
-
-- Specformer: Spectral Graph Neural Networks Meet Transformers (ICLR 2023)
-  - **Deyu Bo**, Chuan Shi, Lele Wang, Renjie Liao
-
-- Revisiting Graph Contrastive Learning from the Perspective of Graph Spectrum (NeurIPS 2022)
-  - Nian Liu, Xiao Wang, **Deyu Bo**, Chuan Shi, Jian Pei
-
-- Regularizing Graph Neural Networks via Consistency-diversity Graph Augmentations (AAAI 2022)
-  - **Deyu Bo**, BinBin Hu, Xiao Wang, Zhiqiang Zhang, Chuan Shi, Jun Zhou
-
-- Beyond Low-frequency Information in Graph Convolutional Networks (AAAI 2021)
-  - **Deyu Bo**, Xiao Wang, Chuan Shi, Huawei Shen
-
-- Structural Deep Clustering Network (WWW 2020)
-  - **Deyu Bo**, Xiao Wang, Chuan Shi, Meiqi Zhu, Emiao Lu, Peng Cui
-
-- AM-GCN: Adaptive Multi-channel Graph Convolutional Networks (KDD 2020)
-  - Xiao Wang, Meiqi Zhu, **Deyu Bo**, Peng Cui, Chuan Shi, Jian Pei
-
-
-Preprint
+<i class="fas fa-file-alt ic-slate"></i> Preprint
 ====
 
-- A Survey on Spectral Graph Neural Networks
-  - **Deyu Bo**, Xiao Wang, Yang Liu, Yuan Fang, Yawen Li, Chuan Shi
+{% include pub-list.html items=site.data.publications.preprint %}
