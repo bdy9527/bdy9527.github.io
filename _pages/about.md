@@ -28,13 +28,11 @@ I am interested in developing spectral tools or models with principled mathemati
 
 - Spectral Graph Neural Networks: [Full-spectrum GNN](https://arxiv.org/abs/2605.05759) (ICML 2026), [Specformer](https://arxiv.org/abs/2303.01028) (ICLR 2023), [Frequency-adaptive GCN](https://arxiv.org/abs/2101.00797) (AAAI 2021)
 
-I also have some preliminary ideas in other areas. Feel free to email me if you are interested.
+I also work on generative models and their post-training on scientific data.
 
-- Spectral Analysis of Model, e.g., Parameter-Efficient Fine-Tuning (PEFT), Model Merging
+- Generative Models for Science: [Graph-GRPO](https://arxiv.org/abs/2603.10395) (ICML 2026)
 
-- Spectral Optimization, e.g., Muon
-
-- Spectrum-based Applications, e.g., AI for Science
+Beyond that, I have preliminary ideas on the spectral analysis of LLMs, including parameter-efficient fine-tuning (PEFT), model merging, and spectral optimization (e.g., Muon). Feel free to email me if you are interested.
 
 <i class="fas fa-gavel ic-teal"></i> Academic Service
 ====
