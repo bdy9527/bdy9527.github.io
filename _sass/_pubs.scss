@@ -3,6 +3,19 @@
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
+   List item sizing
+   The theme applies font-size: 0.875em to BOTH .page__content li AND
+   .page__content p. A "loose" markdown list (blank line between items) wraps
+   each item in a <p>, so the two rules compound to 0.766em, while a "tight"
+   list stays at 0.875em -- two different sizes for bullets on the same page.
+   Neutralise the inner <p> so every list item matches body text.
+   -------------------------------------------------------------------------- */
+
+.page__content li > p {
+  font-size: 1em;
+}
+
+/* --------------------------------------------------------------------------
    Section heading rhythm
    The theme zeroes out h1 { margin-top }, so every `====` section on the home
    page sits flush against the block above it. Give them real air instead.
